@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* classi dimensioni */
+.tenVH_height {
+  height: 10vh;
+}
+
+/* classi colori */
+.lightgrey_back {
+  background-color: lightgrey;
+}
+.white_back {
+  background-color: white;
+}
+.lightgrey_Bborder {
+  border-bottom: 1px solid lightgrey;
+}
+
+
+.general_wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}
+
+.left_side {
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+  border-right: 2px solid grey;
+  float: left;
+}
+
+.right_side {
+  width: 70%;
+  height: 100%;
+  background-color: blue;
+  float: left;
+}
+
+.chat_body {
+  height: 80vh;
+  background-color: #E6DEDB
+}
