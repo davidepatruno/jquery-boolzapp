@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* classi dimensioni */
+/* classi dimensioni e bordi*/
 .tenVH_height {
   height: 10vh;
+}
+
+.rounded_border {
+  border-radius: 10px;
 }
 
 /* classi colori */
@@ -17,6 +21,10 @@
 }
 .lightgrey_Bborder {
   border-bottom: 1px solid lightgrey;
+}
+
+.green_back {
+  background-color: green;
 }
 
 
@@ -43,5 +51,25 @@
 
 .chat_body {
   height: 80vh;
-  background-color: #E6DEDB
+  background-color: #E6DEDB;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+.user_message, .contact_message {
+  width: 100%;
+  height: auto;
+  background: yellow;
+}
+
+.sent_message, .received_message {
+  width: 50%;
+  height: 20px;
+}
+
+.user_message {
+  display: flex;
+  justify-content: flex-end;
 }
