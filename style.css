@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+/*classi per posizionamento */
 .display_flex {
   display: flex;
 }
@@ -17,7 +18,7 @@
 }
 
 .fontsize_20 {
-  font-size: 20;
+  font-size: 20px;
 }
 
 .icon_margin_20 {
@@ -84,6 +85,7 @@
   height: 100vh;
   background-color: red;
 }
+
 /* lato sinistro */
 .left_side {
   width: 30%;
