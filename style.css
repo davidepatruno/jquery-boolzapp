@@ -11,6 +11,12 @@
 .justify_flexend {
   justify-content: flex-end;
 }
+.justify_center {
+  justify-content: center;
+}
+.justify_spar {
+  justify-content: space-around;
+}
 
 /* testi e icone*/
 .colorgrey {
@@ -25,14 +31,20 @@
   margin: 20px;
 }
 
-/* dimensioni e bordi*/
+/* dimensioni spaziature e bordi*/
 .width_30perc {
   width: 30%;
-  padding: 2%;
 }
 .width_70perc {
   width: 70%;
-  padding: 5%;
+}
+
+.padding20px {
+  padding: 20px;
+}
+
+.padding10px {
+  padding: 10px;
 }
 
 .tenVH_height {
@@ -75,11 +87,11 @@
 .lightgrey_Bborder {
   border-bottom: 1px solid lightgrey;
 }
-
 .green_back {
   background-color: green;
 }
 
+/*LAYOUT START */
 .general_wrapper {
   width: 100vw;
   height: 100vh;
