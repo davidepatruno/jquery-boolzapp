@@ -60,6 +60,9 @@
 .height_70perc {
   height: 70%;
 }
+.height_100perc{
+  height: 100%;
+}
 
 .padding20px {
   padding: 20px;
@@ -122,8 +125,6 @@
 
 /* lato sinistro */
 .left_side {
-  width: 30%;
-  height: 100%;
   background-color: grey;
   border-right: 2px solid grey;
   float: left;
@@ -134,8 +135,6 @@
 
 /*lato destro */
 .right_side {
-  width: 70%;
-  height: 100%;
   background-color: blue;
   float: left;
 }
@@ -145,19 +144,25 @@
   background-color: #E6DEDB;
 }
 
-.user_message, .contact_message {
+.user_message, .contact_message, .template {
   width: 100%;
   height: auto;
   background: yellow;
+  margin-bottom: 5px;
+  display: flex;
 }
 
-.sent_message, .received_message {
+.sent_message, .received_message, .temp_messaggio {
   width: 50%;
-  height: 20px;
+  height: auto;
 }
 
 .user_message {
   justify-content: flex-end;
+}
+
+.template {
+  display: none;
 }
 
 .chat_footer_center .message_input_space input {
