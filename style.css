@@ -17,6 +17,12 @@
 .justify_spar {
   justify-content: space-around;
 }
+.justify_spbt {
+  justify-content: space-between;
+}
+.flexdir_column {
+  flex-direction: column;
+}
 
 /* testi e icone*/
 .colorgrey {
@@ -25,6 +31,9 @@
 
 .fontsize_20 {
   font-size: 20px;
+}
+.fontsize_30 {
+  font-size: 30px;
 }
 
 .icon_margin_20 {
@@ -37,6 +46,19 @@
 }
 .width_70perc {
   width: 70%;
+}
+.width_80perc {
+  width: 80%;
+}
+.width_100perc {
+  width: 100%;
+}
+
+.height_30perc {
+  height: 30%;
+}
+.height_70perc {
+  height: 70%;
 }
 
 .padding20px {
@@ -119,8 +141,6 @@
 }
 
 .chat_body {
-  flex-direction: column;
-  justify-content: flex-end;
   height: 520px;
   background-color: #E6DEDB;
 }
@@ -139,4 +159,19 @@
 .user_message {
   justify-content: flex-end;
 }
+
+.chat_footer_center .message_input_space input {
+  padding: 5px;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  color: grey;
+}
+.chat_footer_center .message_input_space input::placeholder {
+  color: lightgrey;
+}
+
+
 /* fine lato destro */

@@ -65,31 +65,37 @@
             </div>
           </div>
         </div>
-        <div class="chat_body display_flex">
-          <div class="user_message display_flex">
-            <div class="sent_message green_back rounded_border_msg">
+        <div class="chat_body display_flex justify_center">
+          <div class="chat_wrapper display_flex flexdir_column justify_flexend width_80perc">
+            <div class="user_message display_flex">
+              <div class="sent_message green_back rounded_border_msg">
+              </div>
             </div>
-          </div>
-          <div class="contact_message">
-            <div class="received_message white_back rounded_border_msg">
+            <div class="contact_message">
+              <div class="received_message white_back rounded_border_msg">
+              </div>
             </div>
           </div>
         </div>
-        <div class="chat_footer display_flex  height_elementslayout lightgrey_back lightgrey_Bborder ">
-          <div class="chat_footer_left padding20px">
-            <div class="icon">
+        <div class="chat_footer display_flex justify_spbt height_elementslayout lightgrey_back lightgrey_Bborder ">
+          <div class="chat_footer_left display_flex flexdir_column justify_center">
+            <div class="icon padding20px">
               <a href="#">
-                <i class="far fa-grin fontsize_20 colorgrey"></i>
+                <i class="far fa-grin fontsize_30 colorgrey"></i>
               </a>
             </div>
           </div>
-          <div class="chat_footer_center">
-            <div class="message_input_space">
-              <input type="text" name="" value="">
+          <div class="chat_footer_center display_flex flexdir_column justify_center width_80perc">
+            <div class="message_input_space height_70perc width_100perc">
+              <input id="newMessage" type="text" placeholder="Digita un messaggio...">
             </div>
           </div>
-          <div class="chat_footer_right">
-
+          <div class="chat_footer_right display_flex flexdir_column justify_center">
+            <div class="icon padding20px">
+              <a href="#">
+                <i class="fas fa-microphone fontsize_30 colorgrey"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
