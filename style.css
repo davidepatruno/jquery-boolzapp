@@ -54,6 +54,9 @@
   width: 100%;
 }
 
+.height_10perc {
+  height: 10%;
+}
 .height_30perc {
   height: 30%;
 }
@@ -64,13 +67,16 @@
   height: 100%;
 }
 
-.padding20px {
-  padding: 20px;
-}
-
 .padding10px {
   padding: 10px;
 }
+.padding20px {
+  padding: 20px;
+}
+.padding50px {
+  padding: 50px;
+}
+
 
 .tenVH_height {
   height: 10vh;
@@ -149,17 +155,44 @@
   height: auto;
   background: yellow;
   margin-bottom: 5px;
-  display: flex;
+  border-radius: 10px;
 }
 
-.sent_message, .received_message, .temp_messaggio {
-  width: 50%;
+.message {
+  position: relative;
+  min-width: 30%;
+  max-width: 50%;
   height: auto;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.clear {
+  content:'';
+  display: table;
+  overflow: hidden;
+  clear: both;
 }
 
-.user_message {
-  justify-content: flex-end;
+.sent {
+  float: right;
+  background-color: #D5F9BA;
 }
+
+.received {
+  background-color: white;
+}
+
+.message .mess_time {
+  display: block;
+  position: absolute;
+  right: 10px;
+  bottom: 5px;
+  font-size: 10px;
+  color: #B6B9BB;
+}
+
 
 .template {
   display: none;
