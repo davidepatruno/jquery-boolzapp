@@ -24,6 +24,10 @@
   flex-direction: column;
 }
 
+.align_it_cent {
+  align-items: center;
+}
+
 /* testi e icone*/
 .colorgrey {
   color: grey;
@@ -34,10 +38,6 @@
 }
 .fontsize_30 {
   font-size: 30px;
-}
-
-.icon_margin_20 {
-  margin: 20px;
 }
 
 /* dimensioni spaziature e bordi*/
@@ -54,17 +54,26 @@
   width: 100%;
 }
 
+.height_5perc {
+  height: 5%;
+}
 .height_10perc {
   height: 10%;
+}
+.height_15perc {
+  height: 15%;
 }
 .height_30perc {
   height: 30%;
 }
-.height_70perc {
-  height: 70%;
+.height_75perc {
+  height: 75%;
 }
 .height_100perc{
   height: 100%;
+}
+.height100px {
+  height: 100px;
 }
 
 .padding10px {
@@ -77,13 +86,8 @@
   padding: 50px;
 }
 
-
-.tenVH_height {
-  height: 10vh;
-}
-
-.height_elementslayout {
-  height: 100px;
+.icon_margin_20 {
+  margin: 20px;
 }
 
 .contacts_user_img {
@@ -118,9 +122,7 @@
 .lightgrey_Bborder {
   border-bottom: 1px solid lightgrey;
 }
-.green_back {
-  background-color: green;
-}
+
 
 /*LAYOUT START */
 .general_wrapper {
@@ -146,8 +148,8 @@
 }
 
 .chat_body {
-  height: 520px;
   background-color: #E6DEDB;
+  overflow-y: scroll;
 }
 
 .user_message, .contact_message, .template {
@@ -182,9 +184,10 @@
   overflow: hidden;
   clear: both;
 }
-
-.message .mess_text {
+.mess_text {
   display: block;
+  width: 80%;
+  height: auto;
 }
 
 .mess_time {
